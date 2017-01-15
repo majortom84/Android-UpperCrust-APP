@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Login Screen Strings -->
+    <string name="app_name">Upper Crust Ordering System</string>
+    <string name="action_settings">Settings</string>
+    <string name="email_hint">Wiregrass Email</string>
+    <string name="password_hint">Password</string>
+    <string name="loginBTN">Login</string>
+    <string name="cancelBTN">Cancel</string>
+    <string name="ExitBTN">Exit</string>
+    <string name="forgot_passwordBTN">Forgot Password</string>
+    <string name="uc_logo">uclogo</string>
+    <!-- Register User Screen Strings -->
+    <string name="register_userBTN">Register</string>
+    <string name="title_activity_user_register">UserRegister</string>
+    <string name="firstNameTxt">First Name</string>
+    <string name="lastNameTxt">Last Name</string>
+    <string name="textMess">Text Message</string>
+    <string name="emailMess">Email Message</string>
+    <string name="phoneMess">Phone Message</string>
+    <string name="phone_hint">Mobile Phone</string>
+    <string name="bothAlerts">Both text and email</string>
+    <string name="submitBTN">Submit</string>
+    <string name="alertTypeTxt">Alert me by txt, email, or both</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <!-- Forgot Password Screen Strings -->
+    <string name="sendPassBTN">Send Email</string>
+    <string name="title_activity_send_email_transition">SendEmailTransition</string>
+    <string name="sendEmailTxt">Check your wiregrass email account for a password reset :)</string>
+    <string name="returnToLoginBTN">Return to Login</string>
+    <!-- Order Menu Screen Strings -->
+    <string name="title_activity_order_menu">OrderMenu</string>
+    <string name="backBTN">Back</string>
+    <string name="checkoutBTN">Checkout</string>
+    <!--  Child view Strings -->
+    <string name="itemName">itemName</string>
+    <string name="subBTN">-</string>
+    <string name="addBTN">+</string>
+    <string name="itemAmount">0</string>
+    <string name="itemCost">$0.00</string>
+
+</resources>

@@ -1,0 +1,32 @@
+12-21 13:28:05.192: W/IInputConnectionWrapper(12827): showStatusIcon on inactive InputConnection
+12-21 13:28:18.773: D/dalvikvm(14270): GC_FOR_ALLOC freed 93K, 13% free 15092K/17192K, paused 15ms, total 15ms
+12-21 13:28:18.784: I/dalvikvm-heap(14270): Grow heap (frag case) to 23.023MB for 6554896-byte allocation
+12-21 13:28:55.058: W/dalvikvm(14270): Unable to resolve superclass of Lcom/ucapp/uppercrustapp/Mail; (1148)
+12-21 13:28:55.058: W/dalvikvm(14270): Link of class 'Lcom/ucapp/uppercrustapp/Mail;' failed
+12-21 13:28:55.059: E/dalvikvm(14270): Could not find class 'com.ucapp.uppercrustapp.Mail', referenced from method com.ucapp.uppercrustapp.UserRegister$1.onClick
+12-21 13:28:55.059: W/dalvikvm(14270): VFY: unable to resolve new-instance 1011 (Lcom/ucapp/uppercrustapp/Mail;) in Lcom/ucapp/uppercrustapp/UserRegister$1;
+12-21 13:28:55.059: D/dalvikvm(14270): VFY: replacing opcode 0x22 at 0x0001
+12-21 13:28:55.061: W/dalvikvm(14270): Unable to resolve superclass of Lcom/ucapp/uppercrustapp/Mail; (1148)
+12-21 13:28:55.061: W/dalvikvm(14270): Link of class 'Lcom/ucapp/uppercrustapp/Mail;' failed
+12-21 13:28:55.062: D/dalvikvm(14270): DexOpt: unable to opt direct call 0x210e at 0x07 in Lcom/ucapp/uppercrustapp/UserRegister$1;.onClick
+12-21 13:28:56.232: D/AndroidRuntime(14270): Shutting down VM
+12-21 13:28:56.232: W/dalvikvm(14270): threadid=1: thread exiting with uncaught exception (group=0x416ddd40)
+12-21 13:28:56.251: E/AndroidRuntime(14270): FATAL EXCEPTION: main
+12-21 13:28:56.251: E/AndroidRuntime(14270): Process: com.ucapp.uppercrustapp, PID: 14270
+12-21 13:28:56.251: E/AndroidRuntime(14270): java.lang.NoClassDefFoundError: com.ucapp.uppercrustapp.Mail
+12-21 13:28:56.251: E/AndroidRuntime(14270): 	at com.ucapp.uppercrustapp.UserRegister$1.onClick(UserRegister.java:112)
+12-21 13:28:56.251: E/AndroidRuntime(14270): 	at android.view.View.performClick(View.java:4466)
+12-21 13:28:56.251: E/AndroidRuntime(14270): 	at android.view.View$PerformClick.run(View.java:18537)
+12-21 13:28:56.251: E/AndroidRuntime(14270): 	at android.os.Handler.handleCallback(Handler.java:733)
+12-21 13:28:56.251: E/AndroidRuntime(14270): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+12-21 13:28:56.251: E/AndroidRuntime(14270): 	at android.os.Looper.loop(Looper.java:136)
+12-21 13:28:56.251: E/AndroidRuntime(14270): 	at android.app.ActivityThread.main(ActivityThread.java:5102)
+12-21 13:28:56.251: E/AndroidRuntime(14270): 	at java.lang.reflect.Method.invokeNative(Native Method)
+12-21 13:28:56.251: E/AndroidRuntime(14270): 	at java.lang.reflect.Method.invoke(Method.java:515)
+12-21 13:28:56.251: E/AndroidRuntime(14270): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+12-21 13:28:56.251: E/AndroidRuntime(14270): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+12-21 13:28:56.251: E/AndroidRuntime(14270): 	at dalvik.system.NativeStart.main(Native Method)
+12-21 13:28:57.853: I/Process(14270): Sending signal. PID: 14270 SIG: 9
+12-21 13:28:58.197: D/dalvikvm(14841): GC_FOR_ALLOC freed 81K, 13% free 15093K/17192K, paused 16ms, total 16ms
+12-21 13:28:58.208: I/dalvikvm-heap(14841): Grow heap (frag case) to 23.023MB for 6554896-byte allocation
+12-21 13:28:59.738: W/IInputConnectionWrapper(14841): showStatusIcon on inactive InputConnection

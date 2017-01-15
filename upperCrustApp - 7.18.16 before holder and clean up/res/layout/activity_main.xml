@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="fill"
+    tools:context="com.ucapp.uppercrustapp.MainActivity" >
+
+    <ImageView
+        android:id="@+id/uc_logo"
+        android:layout_width="fill_parent"
+        android:layout_height="242dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:baselineAlignBottom="false"
+        android:contentDescription="@string/uc_logo"
+        android:focusable="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/uc_logo_final_1" />
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/uc_logo"
+        android:layout_alignStart="@+id/uc_logo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/uc_logo"
+        android:ems="10"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000000"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/passTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/emailTxt"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/loginBTN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/passTxt"
+        android:layout_marginTop="16dp"
+        android:text="@string/loginBTN" 
+        android:onClick="orderMenu" />
+
+    <Button
+        android:id="@+id/cancelBTN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/forgot_passwordBTN"
+        android:onClick="cancelApp"
+        android:text="@string/ExitBTN" />
+
+    <Button
+        android:id="@+id/forgot_passwordBTN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/registerBTN"
+        android:text="@string/forgot_passwordBTN" 
+        android:onClick="forgotPassword" />
+
+    <Button
+        android:id="@+id/registerBTN"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/loginBTN"
+        android:text="@string/register_userBTN"
+        android:onClick="registerUser" /> <!-- set onClick event name .java method the same -->
+        
+</RelativeLayout>

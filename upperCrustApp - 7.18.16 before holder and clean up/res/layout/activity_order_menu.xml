@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.ucapp.uppercrustapp.OrderMenu" >
+    
+    <ImageView
+        android:id="@+id/uc_logo"
+        android:layout_width="fill_parent"
+        android:layout_height="242dp"
+        android:layout_alignParentLeft="true"
+        android:baselineAlignBottom="false"
+        android:contentDescription="@string/uc_logo"
+        android:focusable="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/uc_logo_final_1" />
+    
+    <Button
+        android:id="@+id/backBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/uc_logo"
+        android:text="@string/backBTN" 
+        android:onClick="returnToMain" />
+    
+        <Button
+        android:id="@+id/checkoutBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/backBTN"
+        android:layout_alignBottom="@+id/backBTN"
+        android:layout_alignParentRight="true"
+        android:text="@string/checkoutBTN" />
+
+    <ExpandableListView
+        android:id="@+id/itemsList"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/backBTN"
+        android:paddingTop="10dp" 
+        android:groupIndicator="@drawable/groupindicator" >
+
+    </ExpandableListView>
+
+
+</RelativeLayout>

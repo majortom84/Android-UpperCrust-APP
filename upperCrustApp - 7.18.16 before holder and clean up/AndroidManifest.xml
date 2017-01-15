@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ucapp.uppercrustapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"/>
+        <uses-permission android:name="android.permission.INTERNET"/>
+   		<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+   		<uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/NoActionBar" >
+        <activity
+            android:name="com.ucapp.uppercrustapp.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" 
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ucapp.uppercrustapp.UserRegister"
+            android:label="@string/title_activity_user_register" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.ucapp.uppercrustapp.ForgotPassword"
+            android:label="@string/title_activity_forgot_password" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.ucapp.uppercrustapp.SendEmailTransition"
+            android:label="@string/title_activity_send_email_transition" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.ucapp.uppercrustapp.OrderMenu"
+            android:label="@string/title_activity_order_menu" 
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+    </application>
+
+</manifest>

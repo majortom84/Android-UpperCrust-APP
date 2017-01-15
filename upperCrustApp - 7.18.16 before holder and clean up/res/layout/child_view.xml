@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:descendantFocusability="beforeDescendants"
+	android:focusableInTouchMode="true">
+
+   <EditText
+       android:id="@+id/itemQtTxt"
+       android:layout_width="45dp"
+       android:layout_height="wrap_content"
+       android:layout_alignBottom="@+id/addBTN"
+       android:layout_marginRight="16dp"
+       android:layout_toLeftOf="@+id/addBTN"
+       android:ems="10"
+       android:digits="0123456789"
+       android:gravity="center"
+       android:inputType="number"
+       android:text="@string/itemAmount" >
+		<requestFocus/>
+    </EditText>
+
+    <TextView
+        android:id="@+id/itemCostTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/itemQtTxt"
+        android:layout_marginTop="14dp"
+        android:text="@string/itemCost"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/addBTN"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/addBTN" />
+
+    <Button
+        android:id="@+id/subtractBTN"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/itemQtTxt"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/itemQtTxt"
+        android:text="@string/subBTN" />
+
+    <TextView
+        android:id="@+id/itemNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/subtractBTN"
+        android:layout_alignParentLeft="true"
+        android:text="@string/itemName"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

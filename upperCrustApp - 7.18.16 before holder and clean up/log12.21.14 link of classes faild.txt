@@ -1,0 +1,10 @@
+12-21 13:20:27.880: D/dalvikvm(12827): GC_FOR_ALLOC freed 62K, 13% free 15092K/17192K, paused 14ms, total 14ms
+12-21 13:20:27.920: I/dalvikvm-heap(12827): Grow heap (frag case) to 23.023MB for 6554896-byte allocation
+12-21 13:20:59.608: W/dalvikvm(12827): Unable to resolve superclass of Lcom/ucapp/uppercrustapp/Mail; (1148)
+12-21 13:20:59.608: W/dalvikvm(12827): Link of class 'Lcom/ucapp/uppercrustapp/Mail;' failed
+12-21 13:20:59.609: E/dalvikvm(12827): Could not find class 'com.ucapp.uppercrustapp.Mail', referenced from method com.ucapp.uppercrustapp.UserRegister$1.onClick
+12-21 13:20:59.610: W/dalvikvm(12827): VFY: unable to resolve new-instance 1011 (Lcom/ucapp/uppercrustapp/Mail;) in Lcom/ucapp/uppercrustapp/UserRegister$1;
+12-21 13:20:59.610: D/dalvikvm(12827): VFY: replacing opcode 0x22 at 0x0001
+12-21 13:20:59.612: W/dalvikvm(12827): Unable to resolve superclass of Lcom/ucapp/uppercrustapp/Mail; (1148)
+12-21 13:20:59.613: W/dalvikvm(12827): Link of class 'Lcom/ucapp/uppercrustapp/Mail;' failed
+12-21 13:20:59.615: D/dalvikvm(12827): DexOpt: unable to opt direct call 0x210e at 0x07 in Lcom/ucapp/uppercrustapp/UserRegister$1;.onClick
