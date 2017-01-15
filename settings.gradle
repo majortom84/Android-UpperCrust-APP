@@ -1,0 +1,2 @@
+include ':upperCrustApp'
+include ':appcompat_v7_4'

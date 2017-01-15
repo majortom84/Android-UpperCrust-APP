@@ -1,0 +1,6 @@
+com.android.ide.eclipse.adt.fixLegacyEditors=1
+com.android.ide.eclipse.adt.lintSeverities=Instantiatable\=WARNING,MissingTranslation\=WARNING
+com.android.ide.eclipse.adt.sdk=C\:\\Users\\laptop\\AppData\\Local\\Android\\android-sdk
+com.android.ide.eclipse.adt.xmlEditor=true
+design.palette.flyout.width=186
+eclipse.preferences.version=1

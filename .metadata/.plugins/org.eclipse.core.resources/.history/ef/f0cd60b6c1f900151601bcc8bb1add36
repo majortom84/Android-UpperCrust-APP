@@ -1,0 +1,53 @@
+package week4;
+
+import javax.swing.*;
+
+public class Password {
+
+public static void main(String[] args) {
+    //
+    String pInput = "";
+    String pInput2 = "";
+    int i = 0;
+    //do-while loop to obtain password from input and verify input meets requirements in authenticate method.
+    do {
+        pInput = JOptionPane.showInputDialog(null, "Please enter your password.\n"
+                                                    + "Your password must have 6-10 characters\n"
+                                                    + "Your password must contain at least one letter and one digit");
+    }
+    while (authenticate(pInput) == false);
+
+    do {
+        pInput2 = JOptionPane.showInputDialog(null, "Please re-enter your password: \n");
+    } while (!pInput.equals(pInput2));
+
+    if (pInput.equals(pInput2)) {
+        //if input is validated and returns true- finish program
+        JOptionPane.showMessageDialog(null, "Your password was successfully entered.");
+    }
+
+}   
+
+private static boolean authenticate(String password)
+{
+    // if password is not six characters long or greater than 10 return false - else continue.
+      if ( password.length() < 6 || password.length() > 10) {
+            return false;
+          }
+          boolean containsChar = false;
+          boolean containsDigit = false;
+
+          //for loop that passes password to an array which finds if array contains a character and digit.
+          for (char c : password.toCharArray()) {
+            if (Character.isLetter(c)) {
+              containsChar = true;
+            } else if (Character.isDigit(c)) {
+              containsDigit = true;
+            }
+            if (containsChar && containsDigit) {
+              return true;
+            }
+          }
+          return false;
+        }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;week5code.NicoDebug&apos; to &apos;SeanDebug&apos;&#x0D;&#x0A;- Original project: &apos;week5code&apos;&#x0D;&#x0A;- Original element: &apos;week5code.NicoDebug&apos;&#x0D;&#x0A;- Renamed element: &apos;week5code.SeanDebug&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;NicoDebug&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;week5code{NicoDebug.java[NicoDebug" matchStrategy="1" name="SeanDebug" qualified="false" references="true" similarDeclarations="false" stamp="1460225055554" textual="false" version="1.0"/>
+</session>
