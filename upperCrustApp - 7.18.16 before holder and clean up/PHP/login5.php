@@ -1,7 +1,7 @@
 <?php
 
 $user = "ab73953_test";
-$pass = "H3@ther78";
+$pass = "mytestpass1234";
 $db = "ab73953_testdb";
 
 $db =  mysqli_connect('localhost', $user, $pass, $db) or die("did not work");
